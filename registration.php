@@ -23,11 +23,11 @@ if(isset($_SESSION['id']))
                     <h5 class="card-title text-center mb-5 fw-light fs-5">Registration</h5>
                     <form method="post" action="php/registration.php">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="username" placeholder="Username" maxlength="50" minlength="8">
+                            <input type="text" class="form-control" name="username" id="username" placeholder="Username" maxlength="50" minlength="8">
                             <label for="username">Email address</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="password" placeholder="Password" maxlength="50" minlength="8">
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Password" maxlength="50" minlength="8">
                             <label for="password">Password</label>
                         </div>
 
