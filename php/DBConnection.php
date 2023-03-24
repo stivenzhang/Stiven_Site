@@ -8,5 +8,12 @@ function connection(){
     if($connection->connect_error){
         die();
     }
+    $query = "create table users (
+        id int auto_increment primary key,
+        username varchar(50),
+        password varchar(64)
+    )";
+    $connection->query($query);
+
     return $connection;
 }
