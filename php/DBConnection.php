@@ -1,6 +1,6 @@
 <?php
 function connection(){
-    $host = "localhost";
+    $host = "127.0.0.1";
     $user = "root";
     $password = "tiger";
     $port = "3306";
