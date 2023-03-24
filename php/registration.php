@@ -4,7 +4,7 @@ $connection = connection();
 $username = $_POST['username'];
 $password = $_POST['password'];
 $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-$query = "select * from users where username like ?";
+$query = "select * from users where username = ?";
 $statement = $connection->prepare($query);
 $statement->bind_param("s", $username);
 $queried = $statement->execute();
