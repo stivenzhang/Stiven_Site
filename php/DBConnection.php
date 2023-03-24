@@ -1,10 +1,9 @@
 <?php
 function connection(){
-    $host = "127.0.0.1";
+    $host = "database";
     $user = "root";
-    $password = "tiger";
-    $port = "3306";
-    $connection = new mysqli($host, $user, $password, NULL , $port);
+    $password = '$_ENV["MYSQL_ROOT_PASSWORD"]';
+    $connection = new mysqli($host, $user, $password, NULL);
     if($connection->connect_error){
         die();
     }
