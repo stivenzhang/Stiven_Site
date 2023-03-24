@@ -4,7 +4,7 @@ function connection(){
     $user = "root";
     $password = 'tiger';
     $database = "Sistemi_Stiven_Zhang";
-    $connection = new mysqli($host, $user, $password, NULL);
+    $connection = new mysqli($host, $user, $password, $database);
     if($connection->connect_error){
         die();
     }
