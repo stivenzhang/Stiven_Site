@@ -7,7 +7,7 @@ function connection(){
     if($connection->connect_error){
         die();
     }
-    $query = "CREATE DATABASE Sistemi_Stiven_Zhang";
+    $query = "CREATE DATABASE Sistemi_Stiven_Zhang, use Sistemi_Stiven_Zhang";
     $connection->query($query);
     return $connection;
 }
