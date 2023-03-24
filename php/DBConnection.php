@@ -4,7 +4,7 @@ function connection(){
     $user = "root";
     $password = "tiger";
     $port = "3306";
-    $connection = new mysqli($host, $user, $password, $port);
+    $connection = new mysqli($host, $user, $password, "" , $port);
     if($connection->connect_error){
         die();
     }
