@@ -23,7 +23,7 @@ if(isset($_SESSION['id']))
                     <h5 class="card-title text-center mb-5 fw-light fs-5">Sign In</h5>
                     <form>
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Username" maxlength="50" minlength="8">
                             <label for="floatingInput">Email address</label>
                         </div>
                         <div class="form-floating mb-3">

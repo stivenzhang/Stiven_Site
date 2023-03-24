@@ -8,7 +8,7 @@ $query = "select * from users where username = ?";
 $statement = $connection->prepare($query);
 $statement->bind_param("s", $username);
 $statement->execute();
-$queried = $statement->get_result()
+$queried = $statement->get_result();
 if(count($queried->fetch_assoc()) == 0){
     $query = "insert into users (users.username, users.password) values (?, ?)";
     $statement = $connection->prepare($query);
