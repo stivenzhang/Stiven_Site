@@ -19,5 +19,5 @@ if(count($queried->fetch_assoc()) == 0){
     return "User already registered";
 }
 $connection->close();
-header("Location: ../login.php");
+
 die();
