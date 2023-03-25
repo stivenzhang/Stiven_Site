@@ -15,7 +15,6 @@ if(count($queried->fetch_assoc()) == 0){
     $statement->bind_param("ss", $username, $hashedPassword);
     $queried = $statement->execute();
 }else{
-    http_response_code(400);
     return "User already registered";
 }
 $connection->close();
