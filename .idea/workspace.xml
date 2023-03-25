@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ba44d2-4d02-4826-b33e-ebddc9e1b5b2" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/javascript/try.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/registration.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/try.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,7 @@
       <workItem from="1679688919792" duration="260000" />
       <workItem from="1679689191124" duration="3916000" />
       <workItem from="1679695027737" duration="3171000" />
-      <workItem from="1679740147853" duration="4889000" />
+      <workItem from="1679740147853" duration="5893000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1679688940953</created>
