@@ -14,8 +14,7 @@ if(!isset($queried->fetch_assoc()['id'])){
     $statement = $connection->prepare($query);
     $statement->bind_param("ss", $username, $hashedPassword);
     $queried = $statement->execute();
-}else{
+}else
     http_response_code(406);
-}
 $connection->close();
 die();
