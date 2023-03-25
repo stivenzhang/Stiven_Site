@@ -1,6 +1,7 @@
 body {
-    background: #007bff;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
+    background: #111825;
+    background: linear-gradient(to right, #111825, #33AEFF);
+    color:white;
 }
 
 .btn-login {
@@ -9,16 +10,15 @@ body {
     padding: 0.75rem 1rem;
 }
 
-.btn-google {
-    color: white !important;
-    background-color: #ea4335;
-}
-
-.btn-facebook {
-    color: white !important;
-    background-color: #3b5998;
-}
-
 .sidebar{
-    height: 93%;
+    height: 91%;
+    background: #111825;
+}
+
+.account{
+    background: #111825;
+}
+
+.main{
+    background: #111825;
 }
