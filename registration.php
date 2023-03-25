@@ -21,7 +21,7 @@ if(isset($_SESSION['id']))
             <div class="card border-0 shadow rounded-3 my-5">
                 <div class="card-body p-4 p-sm-5">
                     <h5 class="card-title text-center mb-5 fw-light fs-5">Registration</h5>
-                    <form method="post" action="php/registration.php">
+                    <form action="javascript/registration.js">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" name="username" id="username" placeholder="Username" maxlength="50" minlength="8">
                             <label for="username">Email address</label>
@@ -43,5 +43,8 @@ if(isset($_SESSION['id']))
         </div>
     </div>
 </div>
+<script src="javascript/http.js"></script>
+<script src="javascript/registration.js"></script>
+
 </body>
 </html>
