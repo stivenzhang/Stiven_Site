@@ -23,11 +23,11 @@ if(isset($_SESSION['id']))
                     <h5 class="card-title text-center mb-5 fw-light fs-5">Sign In</h5>
                     <form method="post" action="php/login.php">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Username" maxlength="50" minlength="8">
+                            <input type="text" class="form-control" id="floatingInput" name="username" placeholder="Username" maxlength="50" minlength="8">
                             <label for="floatingInput">Username</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password">
                             <label for="floatingPassword">Password</label>
                         </div>
 
