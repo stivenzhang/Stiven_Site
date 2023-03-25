@@ -15,23 +15,6 @@ if(isset($_SESSION['id']))
     <script src="bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
-<?php
-include_once  "php/DBConnection.php";
-$connection = connection();
-$password = "password".md5("sha256md5");
-$hashedPassword = hash("sha256", $password);
-$query = "select * from users where username like 'password'";
-$statement = $connection->prepare($query);
-$statement->execute();
-$queried = $statement->get_result();
-while($row = $queried->fetch_assoc()){
-    print_r($row);
-}
-echo $hashedPassword;
-$connection->close();
-
-
-?>
 <div class="container">
     <div class="row">
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">

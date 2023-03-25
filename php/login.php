@@ -9,9 +9,10 @@ $statement = $connection->prepare($query);
 $statement->bind_param("ss", $username, $hashedPassword);
 $statement->execute();
 $queried = $statement->get_result();
-if(isset($queried->fetch_assoc()["id"])){
+$row = $queried->fetch_assoc();
+if(isset($row["id"])){
     session_start();
-    $_SESSION['id'] = $queried->fetch_assoc()["id"];
+    $_SESSION['id'] = $row["id"];
     header("Location: ../index.php");
 }else{
     header("Location: ../login.php");
