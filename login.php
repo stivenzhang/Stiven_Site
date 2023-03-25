@@ -1,18 +1,12 @@
-<?php
-session_start();
-if(isset($_SESSION['id']))
-    header("Location: index.php");
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Sign in</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/general.css">
     <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="javascript/logged.js"></script>
 </head>
 <body>
 <div class="container">

@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ba44d2-4d02-4826-b33e-ebddc9e1b5b2" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/logged.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript/login_registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/login_registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/DBConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/DBConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +71,7 @@
       <recent name="C:\Users\39349\Desktop\stiven\untitled1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\39349\Desktop\stiven\untitled1\javascript" />
       <recent name="C:\Users\39349\Desktop\stiven\untitled1" />
       <recent name="C:\Users\39349\Desktop\stiven\untitled1\bootstrap" />
     </key>
@@ -86,6 +94,8 @@
       <workItem from="1679695027737" duration="3171000" />
       <workItem from="1679740147853" duration="5893000" />
       <workItem from="1679752540501" duration="5531000" />
+      <workItem from="1679765728092" duration="5923000" />
+      <workItem from="1679775142924" duration="5746000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1679688940953</created>

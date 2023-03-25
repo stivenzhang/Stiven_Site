@@ -12,8 +12,7 @@ $statement->execute();
 $queried = $statement->get_result();
 $row = $queried->fetch_assoc();
 if(isset($row["id"])){
-    session_start();
-    $_SESSION['id'] = $row["id"];
+    echo $row["id"];
 }else
     http_response_code(404);
 $connection->close();

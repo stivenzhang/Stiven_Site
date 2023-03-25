@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(isset($_SESSION['id']))
+if(isset($_COOKIE['id']))
     header("Location: index.php");
 
 ?>
@@ -9,10 +9,11 @@ if(isset($_SESSION['id']))
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Registration</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/general.css">
     <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="javascript/logged.js"></script>
 </head>
 <body>
 <div class="container">

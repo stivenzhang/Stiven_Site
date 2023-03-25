@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Index</title>
+    <title>How to do</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/general.css">
     <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="javascript/logged.js"></script>
 </head>
 <body class="d-flex flex-row overflow-hidden">
 <aside class="vh-100 w-25 bg-white border-end">
@@ -45,6 +46,14 @@
                         <div class="collapse" id="web-client">
                             <ul class="fw-normal pb-1 small">
                                 <li>Html</li>
+                                <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#css" aria-expanded="false">
+                                    Css
+                                </li>
+                                <div class="collapse" id="css">
+                                    <ul class="fw-normal pb-1 small">
+                                       <li>Bootstrap</li>
+                                    </ul>
+                                </div>
                                 <li>Javascript</li>
                             </ul>
                         </div>
@@ -52,6 +61,15 @@
                             Docker
                         </li>
                         <div class="collapse" id="docker-collapse">
+                            <ul class="fw-normal pb-1">
+                                <li>Used for</li>
+                                <li>Commands</li>
+                            </ul>
+                        </div>
+                        <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#git-collapse" aria-expanded="false">
+                            Git
+                        </li>
+                        <div class="collapse" id="git-collapse">
                             <ul class="fw-normal pb-1">
                                 <li>Used for</li>
                                 <li>Commands</li>
