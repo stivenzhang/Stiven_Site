@@ -3,7 +3,7 @@ include_once  "DBConnection.php";
 $connection = connection();
 $username = $_POST['username'];
 $password = $_POST['password'];
-$hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+$hashedPassword = password_hash($password, PASSWORD_BCRYPT);
 $query = "select * from users where username like ? and password like ?";
 $statement = $connection->prepare($query);
 $statement->bind_param("ss", $username, $hashedPassword);
