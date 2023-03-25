@@ -18,9 +18,9 @@ if(isset($_SESSION['id']))
 <?php
 include_once  "php/DBConnection.php";
 $connection = connection();
-$password = "ciaociao";
+$password = "password";
 $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-$query = "select * from users where username like 'ciaociao'";
+$query = "select * from users where username like 'password'";
 $statement = $connection->prepare($query);
 $statement->execute();
 $queried = $statement->get_result();
