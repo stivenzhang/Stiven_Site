@@ -2,8 +2,8 @@
 include_once  "DBConnection.php";
 $connection = connection();
 $username = $_POST['username'];
-$password = $_POST['password'];
-$hashedPassword = password_hash($password, PASSWORD_BCRYPT);
+$password = $_POST['password'].md5("sha256md5");
+$hashedPassword = hash("sha256", $password);
 $query = "select * from users where username = ?";
 $statement = $connection->prepare($query);
 $statement->bind_param("s", $username);

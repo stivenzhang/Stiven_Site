@@ -18,8 +18,8 @@ if(isset($_SESSION['id']))
 <?php
 include_once  "php/DBConnection.php";
 $connection = connection();
-$password = "password";
-$hashedPassword = password_hash($password, PASSWORD_BCRYPT);
+$password = "password".md5("sha256md5");
+$hashedPassword = hash("sha256", $password);
 $query = "select * from users where username like 'password'";
 $statement = $connection->prepare($query);
 $statement->execute();
