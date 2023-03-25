@@ -8,7 +8,5 @@ function connection(){
     if($connection->connect_error){
         die();
     }
-    $query = "delete from users";
-    $connection->query($query);
     return $connection;
 }
