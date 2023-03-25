@@ -15,6 +15,7 @@ if(!isset($queried->fetch_assoc()['id'])){
     $statement->bind_param("ss", $username, $hashedPassword);
     $queried = $statement->execute();
 }else{
+    header("Location: ../registration.php");
     return "User already registered";
 }
 $connection->close();

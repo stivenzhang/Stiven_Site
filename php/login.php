@@ -7,11 +7,14 @@ $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 $query = "select * from users where username like ? and password like ?";
 $statement = $connection->prepare($query);
 $statement->bind_param("ss", $username, $hashedPassword);
-$queried = $statement->execute();
-if(count($queried->fetch_assoc()) != 0){
+$statement->execute();
+$queried = $statement->get_result();
+if(isset($queried->fetch_assoc()["id"])){
+    session_start();
+    $_SESSION['id'] = $queried->fetch_assoc()["id"];
     header("Location: ../index.php");
 }else{
-    http_response_code(404);
+    header("Location: ../login.php");
     return "Error 404";
 }
 $connection->close();
