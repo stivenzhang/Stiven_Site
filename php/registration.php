@@ -14,10 +14,10 @@ if(!isset($queried->fetch_assoc()['id'])){
     $statement = $connection->prepare($query);
     $statement->bind_param("ss", $username, $hashedPassword);
     $queried = $statement->execute();
+    header("Location: ../login.php");
 }else{
     header("Location: ../registration.php");
-    return "User already registered";
+    echo "User already registered";
 }
 $connection->close();
-header("Location: ../login.php");
 die();

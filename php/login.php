@@ -15,7 +15,7 @@ if(isset($queried->fetch_assoc()["id"])){
     header("Location: ../index.php");
 }else{
     header("Location: ../login.php");
-    return "Error 404";
+    echo "Error 404";
 }
 $connection->close();
 die();
