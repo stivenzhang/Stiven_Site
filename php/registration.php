@@ -9,6 +9,7 @@ $statement = $connection->prepare($query);
 $statement->bind_param("s", $username);
 $statement->execute();
 $queried = $statement->get_result();
+print_r($queried->fetch_assoc());
 if(count($queried->fetch_assoc()) == 0){
     $query = "insert into users (users.username, users.password) values (?, ?)";
     $statement = $connection->prepare($query);
