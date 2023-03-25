@@ -10,6 +10,8 @@ function requests(path, redirect){
                 window.location.href = redirect
             else if(response.status === 404 && response.readyState === 4)
                 error(404)
+            else if(response.status === 406 && response.readyState === 4)
+                error(406)
         })
     }
 }
