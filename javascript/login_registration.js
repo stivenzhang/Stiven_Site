@@ -6,6 +6,7 @@ function requests(path, redirect){
         error(400)
     else{
         http("POST", path, value).then((response) => {
+            console.log(response.status)
             if(response.status === 200 && response.readyState === 4)
                 window.location.href = redirect
             else if(response.status === 404 && response.readyState === 4)
