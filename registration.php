@@ -19,7 +19,7 @@ if(isset($_SESSION['id']))
     <div class="row">
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <div class="card border-0 shadow rounded-3 my-5">
-                <div class="card-body p-4 p-sm-5">
+                <div class="card-body p-4">
                     <h5 class="card-title text-center mb-5 fw-light fs-5">Sign Up</h5>
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="username" placeholder="Username" maxlength="50" minlength="8">
