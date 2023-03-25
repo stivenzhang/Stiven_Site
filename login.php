@@ -15,6 +15,7 @@ if(isset($_SESSION['id']))
     <script src="bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
+<script src="javascript/try.js"></script>
 <div class="container">
     <div class="row">
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
