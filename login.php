@@ -9,7 +9,7 @@ if(isset($_SESSION['id']))
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Index</title>
+    <title>Login</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/general.css">
     <script src="bootstrap/js/bootstrap.js"></script>
