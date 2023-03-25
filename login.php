@@ -18,16 +18,16 @@ if(isset($_SESSION['id']))
 <?php
 include_once  "php/DBConnection.php";
 $connection = connection();
-$password = "password";
+$password = "ciaociao";
 $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-$query = "select * from users where password like ?";
+$query = "select * from users where username like ciaociao";
 $statement = $connection->prepare($query);
-$statement->bind_param("s", $hashedPassword);
 $statement->execute();
 $queried = $statement->get_result();
 while($row = $queried->fetch_assoc()){
     print_r($row);
 }
+echo $hashedPassword;
 $connection->close();
 
 
