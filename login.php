@@ -16,7 +16,7 @@ if(isset($_SESSION['id']))
 </head>
 <body>
 <?php
-echo "ciao"
+echo "<div>ciao</div>";
 
 ?>
 <div class="container">
