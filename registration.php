@@ -44,6 +44,8 @@ if(isset($_SESSION['id']))
     </div>
 </div>
 <script src="javascript/http.js"></script>
+<script src="javascript/error_codes.js"></script>
+<script src="javascript/login_registration.js"></script>
 <script src="javascript/registration.js"></script>
 </body>
 </html>
