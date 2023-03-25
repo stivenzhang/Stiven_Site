@@ -16,7 +16,20 @@ if(isset($_SESSION['id']))
 </head>
 <body>
 <?php
-echo "<div>ciao</div>";
+include_once  "php/DBConnection.php";
+$connection = connection();
+$username = $_POST['username'];
+$password = $_POST['password'];
+$hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+$query = "select * from users";
+$statement = $connection->prepare($query);
+$statement->execute();
+$queried = $statement->get_result();
+while($row = $queried->fetch_assoc()){
+    print_r($row);
+}
+$connection->close();
+
 
 ?>
 <div class="container">
