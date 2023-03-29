@@ -7,7 +7,7 @@ if(document.title === "How to do")
             console.log(value)
             http("POST", "./php/getUser.php", value).then(response => {
                 if(response.readyState === 4){
-                    console.log(response.response)
+                    console.log(response)
                     if(response.status === 200){
                         user.innerHTML = response.response
                     }else{
