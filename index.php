@@ -102,7 +102,7 @@
             </li>
         </ul>
     </div>
-    <div class="account d-flex flex-row p-3">
+    <div class="account d-flex flex-row p-3 overflow-auto">
         <div class="align-self-center col-6 text-truncate" id="user">
         </div>
         <button class="btn btn-primary col-6" id="sign_out">Sign out</button>
