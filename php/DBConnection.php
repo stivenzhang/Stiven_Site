@@ -7,7 +7,7 @@ function connection(){
     //For aws
     $password = 'tiger';
     //$password = 'root';
-    $database = "sistemi_stiven_zhang";
+    $database = "Sistemi_Stiven_Zhang";
     $connection = new mysqli($host, $user, $password, $database);
     if($connection->connect_error)
         die();
