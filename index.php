@@ -103,9 +103,9 @@
         </ul>
     </div>
     <div class="account d-flex flex-row p-3 overflow-auto">
-        <div class="align-self-center col-6 text-truncate" id="user">
+        <div class="align-self-center col-6 text-truncate  overflow-auto" id="user">
         </div>
-        <button class="btn btn-primary col-6" id="sign_out">Sign out</button>
+        <button class="btn btn-primary col-6  overflow-auto" id="sign_out">Sign out</button>
     </div>
 </aside>
 <main class="w-75 vh-100 main p-5 overflow-auto" id="information">
