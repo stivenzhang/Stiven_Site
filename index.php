@@ -16,7 +16,7 @@
         </p>
         <ul class="list-unstyled ps-0">
             <li class="mb-1">
-                <button class="text-white btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#technologies-collapse" aria-expanded="false">
+                <button id="technologies" class="text-white btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#technologies-collapse" aria-expanded="false">
                     Technologies
                 </button>
                 <div class="collapse" id="technologies-collapse">
@@ -24,58 +24,67 @@
                         <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#lamp-collapse" aria-expanded="false">
                             Lamp
                         </li>
-                        <div class="collapse" id="lamp-collapse">
+                        <li class="list-unstyled collapse" id="lamp-collapse">
                             <ul class="fw-normal pb-1">
                                 <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#linux" aria-expanded="false">
                                     Linux(Ubuntu)
                                 </li>
-                                <div class="collapse" id="linux">
+                                <li class="list-unstyled collapse" id="linux">
                                     <ul>
-                                        <li>Used for</li>
-                                        <li>Commands</li>
+                                        <li class="Used-for rounded collapsed">Used for</li>
+                                        <li class="Commands rounded collapsed">Used commands</li>
                                     </ul>
-                                </div>
-                                <li>Apache</li>
-                                <li>Mysql</li>
-                                <li>Php</li>
+                                </li>
+                                <li id="apache" class="rounded collapsed">Apache</li>
+                                <li id="mysql" class="rounded collapsed">Mysql</li>
+                                <li id="php" class="rounded collapsed">Php</li>
                             </ul>
-                        </div>
+                        </li>
                         <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#web-client" aria-expanded="false">
                             Web client
                         </li>
-                        <div class="collapse" id="web-client">
+                        <li class="list-unstyled collapse" id="web-client">
                             <ul class="fw-normal pb-1 small">
-                                <li>Html</li>
+                                <li id="html" class="rounded collapsed">Html</li>
                                 <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#css" aria-expanded="false">
                                     Css
                                 </li>
-                                <div class="collapse" id="css">
-                                    <ul class="fw-normal pb-1 small">
-                                       <li>Bootstrap</li>
+                                <li class="list-unstyled collapse" id="css">
+                                    <ul class="fw-normal pb-1">
+                                       <li id="bootstrap" class="rounded collapsed">Bootstrap</li>
                                     </ul>
-                                </div>
-                                <li>Javascript</li>
+                                </li>
+                                <li id="javascript" class="rounded collapsed">Javascript</li>
                             </ul>
-                        </div>
-                        <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#docker-collapse" aria-expanded="false">
+                        </li>
+                        <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#docker" aria-expanded="false">
                             Docker
                         </li>
-                        <div class="collapse" id="docker-collapse">
+                        <li class="list-unstyled collapse" id="docker">
                             <ul class="fw-normal pb-1">
-                                <li>Used for</li>
-                                <li>Commands</li>
+                                <li class="Used-for rounded collapsed">Used for</li>
+                                <li class="Commands rounded collapsed">Used commands</li>
                             </ul>
-                        </div>
-                        <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#git-collapse" aria-expanded="false">
+                        </li>
+                        <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#git" aria-expanded="false">
                             Git
                         </li>
-                        <div class="collapse" id="git-collapse">
+                        <li class="list-unstyled collapse" id="git">
                             <ul class="fw-normal pb-1">
-                                <li>Used for</li>
-                                <li>Commands</li>
+                                <li class="Used-for rounded collapsed">Used for</li>
+                                <li class="Commands rounded collapsed">Used commands</li>
                             </ul>
-                        </div>
-                        <li>Aws</li>
+                        </li>
+                        <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#MkCert" aria-expanded="false">
+                            MkCert
+                        </li>
+                        <li class="list-unstyled collapse" id="MkCert">
+                            <ul class="fw-normal pb-1">
+                                <li class="Used-for rounded collapsed">Used for</li>
+                                <li class="Commands rounded collapsed">Used commands</li>
+                            </ul>
+                        </li>
+                        <li id="aws" class="rounded collapsed">Aws</li>
                     </ul>
                 </div>
             </li>
@@ -83,12 +92,15 @@
     </div>
     <div class="account d-flex flex-row p-3">
         <div class="align-self-center col-6 text-truncate" id="user">
-            Stiven by default
         </div>
         <button class="btn btn-primary col-6" id="sign_out">Sign out</button>
     </div>
 </aside>
-<main class="w-75 vh-100 main p-5">
+<main class="w-75 vh-100 main p-5 overflow-auto" id="information">
+
+
 </main>
+<script src="javascript/informations.js"></script>
+<script src="javascript/information_changes.js"></script>
 </body>
 </html>

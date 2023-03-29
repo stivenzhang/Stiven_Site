@@ -1,9 +1,8 @@
 <?php
 include_once  "DBConnection.php";
 $connection = connection();
-$username = $_POST['username'];
-
-$password = trim($_POST['password']).md5("sha256md5");
+$username = mysqli_real_escape_string($connection, $_POST['username']);
+$password = mysqli_real_escape_string($connection, trim($_POST['password']).md5("sha256md5"));
 $hashedPassword = hash("sha256", $password);
 $query = "select * from users where username like ? and password like ?";
 $statement = $connection->prepare($query);
