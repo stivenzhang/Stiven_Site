@@ -114,5 +114,6 @@
 <script src="javascript/sign_out.js"></script>
 <script src="javascript/informations.js"></script>
 <script src="javascript/information_changes.js"></script>
+<script src="javascript/image_width.js"></script>
 </body>
 </html>

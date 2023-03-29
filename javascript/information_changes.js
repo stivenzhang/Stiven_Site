@@ -10,6 +10,9 @@ for (const used_for of used_for_s) {
         const id_used_for = used_for.parentElement.parentElement.id
         change_selected(used_for)
         information.innerHTML = outputs_used_for[id_used_for]
+        const images = document.getElementsByClassName("image")
+        for (const image of images)
+            image.width = window.innerWidth * 0.7 - 96
     })
 }
 
@@ -19,6 +22,9 @@ for (const command of commands) {
         const id_used_for = command.parentElement.parentElement.id
         change_selected(command)
         information.innerHTML = outputs_command[id_used_for]
+        const images = document.getElementsByClassName("image")
+        for (const image of images)
+            image.width = window.innerWidth * 0.7 - 96
     })
 }
 
@@ -28,6 +34,9 @@ for (const technology of technologies){
     technology_html.addEventListener("click", () => {
         information.innerHTML = outputs[technology_html.id]
         change_selected(technology_html)
+        const images = document.getElementsByClassName("image")
+        for (const image of images)
+            image.width = window.innerWidth * 0.7 - 96
     })
 }
 

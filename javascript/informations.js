@@ -51,7 +51,7 @@ const outputs_command = {
         "    </div>\n" +
         "    <div class=\"mt-4 border-bottom pb-4\">\n" +
         "        <div class=\"h3\">ls</div>\n" +
-        "        <img src=\"img/ls.png\" alt=\"\">\n" +
+        "        <img src=\"img/ls.png\" class=\"image\" alt=\"\">\n" +
         "        <div>\n" +
         "            The ls command is used to list files or directories in Linux and other Unix-based operating systems.\n" +
         "        </div>\n" +
@@ -59,7 +59,7 @@ const outputs_command = {
         "\n" +
         "    <div class=\"mt-4 border-bottom pb-4\">\n" +
         "        <div class=\"h3 pt-2\">mkdir < directory ></div>\n" +
-        "        <img src=\"img/mkdir.png\" alt=\"\">\n" +
+        "        <img src=\"img/mkdir.png\" class=\"image\" alt=\"\">\n" +
         "        <div>\n" +
         "            The mkdir command creates directories. This command can create multiple directories at once as well as set the permissions for the directories it is important to note that the user executing this command must have enough permissions to create a directory in the parent directory.\n" +
         "        </div>\n" +
@@ -67,28 +67,28 @@ const outputs_command = {
         "\n" +
         "    <div class=\"mt-4 border-bottom pb-4\">\n" +
         "        <div class=\"h3 pt-2\">apt < install//upgrade//update ></div>\n" +
-        "        <img src=\"img/apt.png\" alt=\"\">\n" +
+        "        <img src=\"img/apt.png\" class=\"image\" alt=\"\">\n" +
         "        <div>\n" +
         "            The commands contained within apt provide the means for installing new software packages, upgrading existing software packages, updating the package list index, and even upgrading the entire Ubuntu system.\n" +
         "        </div>\n" +
         "    </div>\n" +
         "<div class=\"mt-4 border-bottom pb-4\">\n" +
         "    <div class=\"h3 pt-2\">mv < file//directory > < file//directory ></div>\n" +
-        "    <img src=\"img/mv.png\" alt=\"\">\n" +
+        "    <img src=\"img/mv.png\" class=\"image\" alt=\"\">\n" +
         "    <div>\n" +
         "        The mv command is used for moving a file from one location to another in Ubuntu terminal. It can also be used to rename files if you move them to the same location but with a different name.\n" +
         "    </div>\n" +
         "</div>\n" +
         "<div class=\"mt-4 border-bottom pb-4\">\n" +
         "    <div class=\"h3 pt-2\">cp < file//directory > < file//directory ></div>\n" +
-        "    <img src=\"img/cp.png\" alt=\"\">\n" +
+        "    <img src=\"img/cp.png\" class=\"image\" alt=\"\">\n" +
         "    <div>\n" +
         "        The cp command is used to create a copy of the contents of the file or directory specified by the Source parameters into the file or directory specified by the Target parameters.\n" +
         "    </div>\n" +
         "</div>\n" +
         "<div class=\"mt-4 border-bottom pb-4\">\n" +
         "    <div class=\"h3 pt-2\">cd < directory ></div>\n" +
-        "    <img src=\"img/cd.png\" alt=\"\">\n" +
+        "    <img src=\"img/cd.png\" class=\"image\" alt=\"\">\n" +
         "    <div>\n" +
         "         The cd command is used to allow you to change directories.\n" +
         "    </div>\n" +

@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ba44d2-4d02-4826-b33e-ebddc9e1b5b2" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/img/apt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mkdir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mv.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/image_width.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/information_changes.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/information_changes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript/informations.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/informations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/logged.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/logged.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/DBConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/DBConnection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +103,7 @@
       <workItem from="1680087853615" duration="291000" />
       <workItem from="1680088179630" duration="1592000" />
       <workItem from="1680106558570" duration="3925000" />
+      <workItem from="1680117536721" duration="2800000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1679688940953</created>
