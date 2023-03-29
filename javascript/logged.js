@@ -5,8 +5,10 @@ if(document.title === "How to do")
         window.onload = () => {
             const user = document.getElementById("user")
             const value = "id=" + sessionStorage.getItem("id")
+            console.log(value)
             http("POST", "./php/getUser.php", value).then(response => {
                 if(response.readyState === 4){
+                    console.log(response.response)
                     if(response.status === 200){
                         user.innerHTML = response.response
                     }else{
