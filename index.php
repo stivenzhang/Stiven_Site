@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/general.css">
     <script src="bootstrap/js/bootstrap.js"></script>
-    <script src="javascript/http.js"></script>
-    <script src="javascript/logged.js"></script>
+
 
 </head>
 <body class="d-flex flex-row overflow-hidden">
@@ -112,7 +111,8 @@
 
 
 </main>
-
+<script src="javascript/http.js"></script>
+<script src="javascript/logged.js"></script>
 <script src="javascript/sign_out.js"></script>
 <script src="javascript/informations.js"></script>
 <script src="javascript/information_changes.js"></script>

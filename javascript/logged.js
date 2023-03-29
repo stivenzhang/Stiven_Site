@@ -2,7 +2,6 @@ if(document.title === "How to do")
     if(sessionStorage.getItem("id") === null)
         location.href = "login.php"
     else{
-        window.onload = () => {
             const user = document.getElementById("user")
             const value = "id=" + sessionStorage.getItem("id")
             console.log(value)
@@ -16,7 +15,6 @@ if(document.title === "How to do")
                     }
                 }
             })
-        }
     }
 else
     if(sessionStorage.getItem("id") !== null)
