@@ -10,7 +10,6 @@ function requests(path, redirect, login){
                 window.location.href = redirect
                 if(login)
                     sessionStorage.setItem("id", response.response)
-                console.log(response.response)
             }
             else if(response.status === 404 && response.readyState === 4)
                 error(404)

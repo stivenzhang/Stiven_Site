@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ba44d2-4d02-4826-b33e-ebddc9e1b5b2" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/img/ls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/information_changes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/informations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/getUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/sign_out.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/http.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript/logged.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/logged.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/login_registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/login_registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/DBConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/DBConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/getUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/getUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +103,8 @@
       <workItem from="1680001362193" duration="2848000" />
       <workItem from="1680077425527" duration="7149000" />
       <workItem from="1680085730831" duration="23000" />
+      <workItem from="1680087853615" duration="291000" />
+      <workItem from="1680088179630" duration="1592000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1679688940953</created>
