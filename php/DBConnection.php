@@ -8,8 +8,7 @@ function connection(){
     $password = 'tiger';
     //$password = 'root';
     $database = "sistemi_stiven_zhang";
-    $port = "3306";
-    $connection = new mysqli($host, $user, $password, $database, $port);
+    $connection = new mysqli($host, $user, $password, $database);
     if($connection->connect_error)
         die();
     return $connection;
