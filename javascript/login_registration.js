@@ -1,6 +1,6 @@
 function requests(path, redirect, login){
-    const username = document.getElementById("username").value
-    const password = document.getElementById("password").value
+    const username = document.getElementById("username").value.trim()
+    const password = document.getElementById("password").value.trim()
     let value = "username=" + username + "&password=" + password
     if(username.length < 8 || password.length < 8)
         error(400)

@@ -100,7 +100,6 @@ const outputs = {
         "       <img src=\"img/Restart_compose.png\" class='image pb-3' alt=\"\">" +
         "       <img src=\"img/Repostory.png\" class='image pb-3' alt=\"\">" +
         "       <h1 class='text-warning'>Remenber that the default password of the root is tiger</h1>" +
-
         "    </div>",
 }
 
