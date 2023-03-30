@@ -28,6 +28,7 @@
       <change afterPath="$PROJECT_DIR$/img/Launch_Instance.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/Operating_System.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/Reboot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Repostory.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/Restart_compose.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/Rules.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/Security.png" afterDir="false" />
@@ -138,7 +139,7 @@
       <workItem from="1680106558570" duration="3925000" />
       <workItem from="1680117536721" duration="2800000" />
       <workItem from="1680161181152" duration="6973000" />
-      <workItem from="1680187262089" duration="11307000" />
+      <workItem from="1680187262089" duration="11652000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1679688940953</created>

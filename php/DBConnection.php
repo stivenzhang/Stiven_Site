@@ -1,7 +1,6 @@
 <?php
 function connection(){
-    //$host = "database";
-    $host = "localhost";
+    $host = "database";
     $user = "root";
     $password = 'tiger';
     $database = "Sistemi_Stiven_Zhang";
