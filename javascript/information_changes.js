@@ -1,34 +1,36 @@
 const used_for_s = document.getElementsByClassName("Used-for")
 const commands = document.getElementsByClassName("Commands")
-const technologies = ["apache", "mysql", "php", "html", "javascript", "bootstrap", "aws", "vim"]
+const technologies = ["apache", "mysql", "php", "html", "javascript", "bootstrap", "aws", "vim", "tutorial"]
 const body_information = document.getElementById("information-body")
 const title_information = document.getElementById("title-information")
 let selected
 
 
 for (const used_for of used_for_s) {
-    const id_used_for = used_for.parentElement.parentElement.id
-    const title = id_used_for.slice(0, 1).toUpperCase() + id_used_for.slice(1, id_used_for.length)
-    const body = outputs_used_for[id_used_for]
+    const id = used_for.parentElement.parentElement.id
+    const title = id.slice(0, 1).toUpperCase() + id.slice(1, id.length)
+    const body = outputs[id]
     change_information(used_for, title, body)
 }
 
 
 for (const command of commands) {
-    const id_used_for = command.parentElement.parentElement.id
+    const id = command.parentElement.parentElement.id
     const title = "Used commands"
-    const body = outputs_command[id_used_for]
+    const body = outputs_command[id]
     change_information(command, title, body)
 }
 
 
 for (const technology of technologies){
     const technology_html = document.getElementById(technology)
-    const id_used_for = technology_html.id
-    const title = id_used_for.slice(0, 1).toUpperCase() + id_used_for.slice(1, id_used_for.length)
-    const body = outputs_used_for[id_used_for]
+    const id = technology_html.id
+    const title = id.slice(0, 1).toUpperCase() + id.slice(1, id.length)
+    const body = outputs[id]
     change_information(technology_html, title, body)
 }
+
+
 
 function change_information(html, title, body){
     html.addEventListener("click", () => {
@@ -38,8 +40,10 @@ function change_information(html, title, body){
         const images = document.getElementsByClassName("image")
         for (const image of images)
             image.width = window.innerWidth * 0.7 - 96
+        const images4 = document.getElementsByClassName("images4")
+        for (const image4 of images4)
+            image4.width = (window.innerWidth * 0.7 - 96) / 2
     })
-
 }
 
 function change_selected(new_selected){

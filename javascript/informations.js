@@ -1,5 +1,5 @@
 //Todo outputs_used_for
-const outputs_used_for = {
+const outputs = {
     "linux(Ubuntu)":
         "<div>Ubuntu is a popular open-source operating system based on the " +
         "Debian Linux distribution it's the operating system that we're using for this project</div>",
@@ -47,7 +47,61 @@ const outputs_used_for = {
     aws:
         "    <div>\n" +
         "        AWS (Amazon Web Services) is a cloud computing platform developed by Amazon it provides a wide range of cloud-based service AWS offers a pay-as-you-go pricing model which allows users to only pay for the resources they use making it a cost-effective solution for businesses of all sizes.\n" +
-        "    </div>"
+        "    </div>",
+    tutorial:
+        "    <div>\n" +
+        "       This is a step by step tutorial for AWS (amazon web service) LAMP (Linux, Apache, MySQL, PHP) with docker and auto redirect to https with a auto-certification first of all you need to go on the aws web site and create an account on " +
+        "       <a href='https://aws.amazon.com/it/'>https://aws.amazon.com/it</a>\n" +
+        "       After that follow there step: " +
+        "       <p class='fw-bold'>1) Go to AWS Services and search for EC2</p>" +
+        "       <img src=\"img/Aws_Services.png\" class='image' alt=\"\">" +
+        "       <p class='fw-bold'>2) Click on Launch Instance</p>" +
+        "       <img src=\"img/Launch_Instance.png\" class='image' alt=\"\">" +
+        "       <p class='fw-bold'>3) Use Ubuntu as the os (operaiting system) and create a new pair of key with the Key pair type RSA and file format .pem and the name in out case is \"key\" and then Launch Instace</p>" +
+        "       <img src=\"img/Operating_System.png\" class='images4 pb-3' alt=\"\">" +
+        "       <img src=\"img/Key_Pair.png\" class='images4 pb-3' alt=\"\">" +
+        "       <img src=\"img/Create_Key.png\" class='images4' alt=\"\">" +
+        "       <img src=\"img/Launch.png\" class='images4' alt=\"\">" +
+        "       <p class='fw-bold'>4) Now open the instance from the EC2 dashboard and go down to security open the security group click on edit inbound and add 2 rule with port 80 and 443 and the source to anywhere then save</p>" +
+        "       <img src=\"img/EC2_Dashboard.png\" class='images4 pb-3' alt=\"\">" +
+        "       <img src=\"img/Instances.png\" class='images4 pb-3' alt=\"\">" +
+        "       <img src=\"img/Security.png\" class='images4' alt=\"\">" +
+        "       <img src=\"img/Rules.png\" class='images4' alt=\"\">" +
+        "       <p class='fw-bold'>5) Return to EC2 dashboard and open Elastic IPs click on Allocate Elastic IPs address go to the end and click allocate then click on action Associate Elastic IPs click on instance and the and use your and then click on private ip adress and click on the first then click associate</p>" +
+        "       <img src=\"img/Elastic_IPs.png\" class='images4 pb-3' alt=\"\">" +
+        "       <img src=\"img/Allocate_Elastic_IPs.png\" class='images4 pb-3' alt=\"\">" +
+        "       <img src=\"img/Create_Elastic_IPs.png\" class='images4' alt=\"\">" +
+        "       <img src=\"img/Associate_Elastic_IPs.png\" class='images4' alt=\"\">" +
+        "       <img src=\"img/Associate_Elastic_Instance.png\" class='images4' alt=\"\">" +
+        "       <p class='fw-bold'>6) Return to youe Instance and click on connect go to the ssh client and copy the example</p>" +
+        "       <img src=\"img/Connect.png\" class='images4 pb-3' alt=\"\">" +
+        "       <img src=\"img/Ssh_Client.png\" class='images4 pb-3' alt=\"\">" +
+        "       <p class='fw-bold'>7) Open the cmd (Command Prompt) and go to the folder of the key.pem and paste che example</p>" +
+        "       <img src=\"img/Ssh_Connect.png\" class='images4 pb-3' alt=\"\">" +
+        "       <p class='fw-bold'>8) Update and upgrade your ubuntu for more security</p>" +
+        "       <img src=\"img/Sudo_Apt_Update.png\" class='image pb-3' alt=\"\">" +
+        "       <img src=\"img/Sudo_Apt_Upgrade.png\" class='image pb-3' alt=\"\">" +
+        "       <p class='fw-bold'>9) Then we're going to clone a repostory from git hub with a docker lamp already setted then go to the folder and install docker-compose after that run cp sample.env .env to copy the sample we're going to start docker-compose with docker-compose up -d (d for detached)</p>" +
+        "       <img src=\"img/Clone_Lamp.png\" class='image pb-3' alt=\"\">" +
+        "       <img src=\"img/Docker_Compose.png\" class='image pb-3' alt=\"\">" +
+        "       <img src=\"img/Copy_Sample.png\" class='image pb-3' alt=\"\">" +
+        "       <img src=\"img/Start_Docker_Compose.png\" class='image pb-3' alt=\"\">" +
+        "       <p class='fw-bold'>10) Now we're going to the vhosts to change the default.conf with vim and with i where going to decomment the virtual hosts 443 and add the redirect the port 80 to the public ip that can be find in Connect Instace and then press esc :wq and enter</p>" +
+        "       <img src=\"img/Vim_Default_Config.png\" class='images4 pb-3' alt=\"\">" +
+        "       <img src=\"img/Connect_Instance.png\" class='images4 pb-3' alt=\"\">" +
+        "       <img src=\"img/Change_Default.png\" class='images4 pb-3' alt=\"\">" +
+        "       <img src=\"img/wq.png\" class='images4 pb-3' alt=\"\">" +
+        "       <p class='fw-bold'>11) Now return to config and go to ssl and install mkcert then run mkcert localhost 127.0.0.1 ::1 to crate the certificate and then rename them to cert.pem and cert-key.pem</p>" +
+        "       <img src=\"img/Install_Mkcert.png\" class='image pb-3' alt=\"\">" +
+        "       <img src=\"img/Certificate.png\" class='image pb-3' alt=\"\">" +
+        "       <img src=\"img/Change_cert_name.png\" class='image pb-3' alt=\"\">" +
+        "       <p class='fw-bold'>12) Now we're going to restart the instance and reconnect with the cmd in ssh and return and restart the docker-compose with sudo docker-compose up -d now when we connect ot the public ip we're going to see that we're only allowed to connect with https now we can go to the folder www and here we have all the php files and what is going to be seen on the web here we can clone a repostory that we are interested</p>" +
+        "       <img src=\"img/Reboot.png\" class='image pb-3' alt=\"\">" +
+        "       <img src=\"img/Restart_compose.png\" class='image pb-3' alt=\"\">" +
+        "       <img src=\"img/Repostory.png\" class='image pb-3' alt=\"\">" +
+        "       <h1 class='text-warning'>Remenber that the default password of the root is tiger</h1>" +
+
+        "    </div>",
 }
 
 

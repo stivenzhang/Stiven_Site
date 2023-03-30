@@ -13,11 +13,11 @@
 <body class="d-flex flex-row overflow-hidden">
 <aside class="vh-100 w-25 bg-white border-end">
     <div class="p-3 overflow-auto sidebar border-bottom">
-        <p class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom text-white">
+        <p class="d-flex align-items-center pb-3 mb-0 link-dark text-decoration-none border-bottom text-white">
             <span class="fs-5 fw-semibold">What i've done (Stiven_Zhang)</span>
         </p>
         <ul class="list-unstyled ps-0">
-            <li class="mb-1">
+            <li class="pb-2 pt-2 border-bottom">
                 <button id="technologies" class="text-white btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#technologies-collapse" aria-expanded="false">
                     Technologies
                 </button>
@@ -93,8 +93,10 @@
                     </ul>
                 </div>
             </li>
+            <li class="pb-2 pt-2 border-bottom">
+                <button id="tutorial" class="text-white btn btn-toggle align-items-center rounded collapsed">Tutorial</button>
+            </li>
         </ul>
-        <div>How i've done it</div>
     </div>
     <div class="account d-flex flex-row p-3 overflow-auto">
         <div class="align-self-center col-6 text-truncate  overflow-auto" id="user">
@@ -107,10 +109,8 @@
         Introduction
     </div>
     <div id="information-body">
-        To use this site you need to hover and click the side bar Technologies or How i've done it
+        To use this site you need to hover and click the side bar Technologies or Tutorial
     </div>
-
-
 </main>
 <script src="javascript/sign_out.js"></script>
 <script src="javascript/informations.js"></script>
