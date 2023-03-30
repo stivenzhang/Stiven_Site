@@ -5,6 +5,7 @@ login_button.addEventListener("click", () => {
     requests(path, redirect, true)
 })
 window.addEventListener("keypress", (event) => {
+    console.log(event.key)
     if(event.key === "Enter")
         requests(path, redirect, true)
 })

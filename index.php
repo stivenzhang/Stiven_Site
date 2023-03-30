@@ -94,6 +94,7 @@
                 </div>
             </li>
         </ul>
+        <div>How i've done it</div>
     </div>
     <div class="account d-flex flex-row p-3 overflow-auto">
         <div class="align-self-center col-6 text-truncate  overflow-auto" id="user">
@@ -102,9 +103,11 @@
     </div>
 </aside>
 <main class="w-75 vh-100 main p-5 overflow-auto">
-    <div class="h1 border-bottom" id="title-information"></div>
+    <div class="h1 border-bottom" id="title-information">
+        Introduction
+    </div>
     <div id="information-body">
-
+        To use this site you need to hover and click the side bar Technologies or How i've done it
     </div>
 
 
