@@ -9,6 +9,8 @@ if(document.title === "How to do")
                 if(response.readyState === 4){
                     if(response.status === 200){
                         user.innerHTML = response.response
+                        if(response.response === "Ruben1=2" || response.response === "Daniele7")
+                            body_information.innerHTML += "a=b   a^2=b^2   b^2-a^2=b^2-ab   (b-a)(b+a)= b(b-a)   b+a=b   2b=b   2=1"
                     }else{
                         user.innerHTML = "IDK WHAT YOU DID BUT FU"
                     }
