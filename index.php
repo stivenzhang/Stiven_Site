@@ -28,10 +28,10 @@
                         </li>
                         <li class="list-unstyled collapse" id="lamp-collapse">
                             <ul class="fw-normal pb-1">
-                                <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#linux" aria-expanded="false">
+                                <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#linux(Ubuntu)" aria-expanded="false">
                                     Linux(Ubuntu)
                                 </li>
-                                <li class="list-unstyled collapse" id="linux">
+                                <li class="list-unstyled collapse" id="linux(Ubuntu)">
                                     <ul>
                                         <li class="Used-for rounded collapsed">Used for</li>
                                         <li class="Commands rounded collapsed">Used commands</li>
@@ -86,14 +86,8 @@
                                 <li class="Commands rounded collapsed">Used commands</li>
                             </ul>
                         </li>
-                        <li class="rounded collapsed" data-bs-toggle="collapse" data-bs-target="#vim" aria-expanded="false">
+                        <li class="rounded collapsed" id="vim">
                             Vim
-                        </li>
-                        <li class="list-unstyled collapse" id="vim">
-                            <ul class="fw-normal pb-1">
-                                <li class="Used-for rounded collapsed">Used for</li>
-                                <li class="Commands rounded collapsed">Used commands</li>
-                            </ul>
                         </li>
                         <li id="aws" class="rounded collapsed">Aws</li>
                     </ul>
@@ -107,7 +101,11 @@
         <button class="btn btn-primary col-6  overflow-auto" id="sign_out">Sign out</button>
     </div>
 </aside>
-<main class="w-75 vh-100 main p-5 overflow-auto" id="information">
+<main class="w-75 vh-100 main p-5 overflow-auto">
+    <div class="h1 border-bottom" id="title-information"></div>
+    <div id="information-body">
+
+    </div>
 
 
 </main>

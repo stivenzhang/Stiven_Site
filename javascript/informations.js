@@ -1,54 +1,60 @@
-//Todo outputs
-const outputs = {
-    apache: "<div class=\"h1 border-bottom\">Apache</div>\n" +
-        "    <div>\n" +
-        "        Apache is the web server that processes requests and serves web assets and content via HTTP, mySQL is the database that stores all your information in an easily queried format, PHP is the programming language that works with apache to help create dynamic web content.\n" +
-        "    </div>",
-    mysql: "<div class=\"h1 border-bottom\">MySQL</div>\n" +
-        "    <div>MySQL is a relational database management system developed by Oracle that is based on structured query language (SQL) a database is a structured collection of data</div>\n",
-    php: " <div class=\"h1 border-bottom\">Php</div>\n" +
-        "    <div>PHP is a server side scripting language that is embedded in HTML it is used to manage dynamic content, databases, session tracking ecc... it is integrated with a number of popular databases including MySQL</div>\n",
-    html: "<div class=\"h1 border-bottom\">\n" +
-        "        Html\n" +
-        "    </div>\n" +
-        "    <div>\n" +
-        "        HTML is the standard markup language for describing the structure of documents displayed on the web HTML consists of a series of elements and attributes which are used to mark up all the components of a document to structure it in a meaningful way\n" +
-        "    </div>",
-    bootstrap: "<div class=\"h1 border-bottom\">\n" +
-        "    Bootstrap\n" +
-        "</div>\n" +
-        "    <div>\n" +
-        "        Bootstrap is a free open source front-end development framework for the creation of websites and web apps designed to enable responsive development of mobile-first websites bootstrap provides a collection of syntax for template designs\n" +
-        "    </div>",
-    javascript: "<div class=\"h1 border-bottom\">\n" +
-        "    Javascript\n" +
-        "</div>\n" +
-        "    <div>\n" +
-        "        JavaScript is a dynamic computer programming language it is lightweight and most commonly used as a part of web pages whose implementations allow client-side script to interact with the user and make dynamic pages it is an interpreted programming language with object-oriented capabilities\n" +
-        "    </div>"
-}
-
-
 //Todo outputs_used_for
 const outputs_used_for = {
-    linux: "<div class=\"border-bottom h1\">Linux(Ubuntu)</div>" +
+    "linux(Ubuntu)":
         "<div>Ubuntu is a popular open-source operating system based on the " +
         "Debian Linux distribution it's the operating system that we're using for this project</div>",
-    docker: "<div class=\"h1 border-bottom\">\n" +
-        "        Docker\n" +
-        "    </div>\n" +
+    docker:
         "    <div>\n" +
         "        Docker is a software platform that allows you to build, test, and deploy applications quickly, docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime and is the software we're using to run the lamp for our web site\n" +
         "    </div>",
+    git:
+        "    <div>\n" +
+        "        Git is a DevOps tool used for source code management it is free and open-source control system used to handle small to very large projects efficiently git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development\n" +
+        "    </div>",
+    MkCert:
+        "    <div>\n" +
+        "        MkCert is a simple tool for making locally-trusted development certificates. It requires no configuration.\n" +
+        "    </div>",
+    vim:
+        "    <div>\n" +
+        "        Vim Vi Improved is a text editor designed for use in a terminal window or console it is an enhanced version of the Vi editor developed in the 1970s as a part of the Unix operating system.\n" +
+        "    </div>",
+
+    apache:
+        "    <div>\n" +
+        "        Apache is the web server that processes requests and serves web assets and content via HTTP, mySQL is the database that stores all your information in an easily queried format, PHP is the programming language that works with apache to help create dynamic web content.\n" +
+        "    </div>",
+    mysql:
+        "    <div>" +
+        "       MySQL is a relational database management system developed by Oracle that is based on structured query language (SQL) a database is a structured collection of data" +
+        "    </div>\n",
+    php:
+        "    <div>" +
+        "       PHP is a server side scripting language that is embedded in HTML it is used to manage dynamic content, databases, session tracking ecc... it is integrated with a number of popular databases including MySQL" +
+        "    </div>\n",
+    html:
+        "    <div>\n" +
+        "        HTML is the standard markup language for describing the structure of documents displayed on the web HTML consists of a series of elements and attributes which are used to mark up all the components of a document to structure it in a meaningful way\n" +
+        "    </div>",
+    bootstrap:
+        "    <div>\n" +
+        "        Bootstrap is a free open source front-end development framework for the creation of websites and web apps designed to enable responsive development of mobile-first websites bootstrap provides a collection of syntax for template designs\n" +
+        "    </div>",
+    javascript:
+        "    <div>\n" +
+        "        JavaScript is a dynamic computer programming language it is lightweight and most commonly used as a part of web pages whose implementations allow client-side script to interact with the user and make dynamic pages it is an interpreted programming language with object-oriented capabilities\n" +
+        "    </div>",
+    aws:
+        "    <div>\n" +
+        "        AWS (Amazon Web Services) is a cloud computing platform developed by Amazon it provides a wide range of cloud-based service AWS offers a pay-as-you-go pricing model which allows users to only pay for the resources they use making it a cost-effective solution for businesses of all sizes.\n" +
+        "    </div>"
 }
 
 
 
 //Todo outputs_commands
 const outputs_command = {
-    linux: "<div class=\"h1 border-bottom\">\n" +
-        "        Used commands\n" +
-        "    </div>\n" +
+    "linux(Ubuntu)":
         "    <div class=\"mt-4 border-bottom pb-4\">\n" +
         "        <div class=\"h3\">ls</div>\n" +
         "        <img src=\"img/ls.png\" class=\"image\" alt=\"\">\n" +
@@ -98,7 +104,38 @@ const outputs_command = {
         "    <div>\n" +
         "        Sudo stands for super user do and is a command used to have the root access or as administrator.\n" +
         "    </div>\n" +
-        "</div>\n"
+        "</div>\n",
+    docker:
+        "    <div class=\"mt-4 border-bottom pb-4\">\n" +
+        "        <div class=\"h3\">docker-compose up</div>\n" +
+        "        <img src=\"img/docker-compose-up.png\" class=\"image\" alt=\"\">\n" +
+        "        <div>\n" +
+        "            Docker-compose up is a Docker command to start and run an entire app on a standalone host that contains multiple services.\n" +
+        "        </div>\n" +
+        "    </div>",
+    git:
+        "<div class=\"mt-4 border-bottom pb-4\">\n" +
+        "    <div class=\"h3\">clone</div>\n" +
+        "    <img src=\"img/clone.png\" class=\"image\" alt=\"\">\n" +
+        "    <div>\n" +
+        "        Git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory the original repository can be located on the local filesystem or on remote machine accessible supported protocols\n" +
+        "    </div>\n" +
+        "</div>\n" +
+        "<div class=\"mt-4 border-bottom pb-4\">\n" +
+        "    <div class=\"h3\">pull</div>\n" +
+        "    <img src=\"img/pull.png\" class=\"image\" alt=\"\">\n" +
+        "    <div>\n" +
+        "        The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.\n" +
+        "    </div>\n" +
+        "</div>\n",
+    MkCert:
+        "<div class=\"mt-4 border-bottom pb-4\">\n" +
+        "    <div class=\"h3\">mkcert < filenames ></div>\n" +
+        "    <img src=\"img/MkCert.png\" class=\"image\" alt=\"\">\n" +
+        "    <div>\n" +
+        "        The mkcert < filename > command is used to create certificates for hosts like example.test, localhost or 127.0.0.1\n" +
+        "    </div>\n" +
+        "</div>\n",
 }
 
 
