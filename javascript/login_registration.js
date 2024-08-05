@@ -6,13 +6,16 @@ function requests(path, redirect, login){
         error(400)
     else{
         http("POST", path, value).then((response) => {
-            if(response.status === 200 && response.readyState === 4){
+            if (response.status === 200 && response.readyState === 4) { 
                 window.location.href = redirect
                 if(login)
                     sessionStorage.setItem("id", response.response)
             }
-            else if(response.status === 404 && response.readyState === 4)
+            else if (response.status === 404 && response.readyState === 4) {
+                console.log(response)
                 error(404)
+            }
+                
             else if(response.status === 406 && response.readyState === 4)
                 error(406)
         })
